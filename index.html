@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+  
+    <div class="main-container">
+
+        
+        <div class="buttons">
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <div class="display">
+                        <div class="result"></div>
+                    </div>
+                </td>
+                    <td><div data-action="c" class="btns" id="clear" onclick="clearN()">C</div></td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td><div class="btns"  data-value="7" class="btns" id="seven">7</div></td>
+                    <td><div data-value="8" class="btns" id="eight">8</div></td>
+                    <td><div data-value="9" class="btns" id="nine">9</div></td>
+                    <td><div data-action="+" class="btns" id="plus" onclick="add()">+</div></td>
+                </tr>
+                <tr>
+                    <td><div data-value="4" class="btns" id="four">4</div></td>
+                    <td><div data-value="5" class="btns" id="five">5</div></td>
+                    <td><div data-value="6" class="btns" id="six">6</div></td>
+                    <td><div data-action="-" class="btns" id="substract" onclick="substract()">-</div></td>
+                </tr>
+                <tr>
+                    <td><div data-value="1" class="btns" id="one">1</div></td>
+                    <td><div data-value="2" class="btns" id="two">2</div></td>
+                    <td><div data-value="3" class="btns" id="three">3</div></td>
+                    <td><div data-action="=" class="btns" id="equals" onclick="equals()">=</div></td>
+                </tr>
+                <tr>
+                    <td><div data-value="0" class="btns" id="zero">0</div></td>
+                    <td><div data-value="." class="btns" id="comma">.</div></td>
+                    <td><div data-action="/" class="btns" id="divide" onclick="divide()">/</div></td>
+                    <td><div data-action="*" class="btns" id="multiply" onclick="multiply()">*</div></td>
+                </tr>
+                </table>
+                
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
